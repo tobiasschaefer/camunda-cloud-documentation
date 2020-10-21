@@ -2,6 +2,7 @@
 id: getting-started-with-camunda-cloud
 title: Getting started with Camunda Cloud
 ---
+// shift below the getting started
 
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
