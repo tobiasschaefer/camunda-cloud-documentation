@@ -2,6 +2,7 @@
 id: model-your-first-process
 title: Model your first Process
 ---
+// Provide more background here. Are users familiar with BPMN? 
 
 Using the Zeebe Modeler, workflows can be designed and deployed and new instances can be created.
 
