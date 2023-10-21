@@ -31,3 +31,13 @@ This section is split into functions based on their primary operational data typ
 
 Additionally, there are [conversion](./feel-built-in-functions-conversion.md) functions that allow
 you to construct new values of a data type (factory functions).
+
+Inline comments are very valuable to document the non-obvious. Java-style comments can be used, i.e. `//` to end of line and `/* ... */`.
+
+```feel
+/*
+  Hide irrelevant issue types
+*/
+(list contains([12, 15, 19], issue.type) // Hide issues of type "Task"
+  or issue.priority<50) // Hide low priority issues
+```
